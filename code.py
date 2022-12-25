@@ -2,7 +2,7 @@
 import csv 
 
 #loading the excel file into python 
-followers_csv=open('D:/CS/3rd/algorithms/project/twitter.csv')
+followers_csv=open('./twitter.csv')
 # 1  2
 # 3  2
 # 1 follows 2 
