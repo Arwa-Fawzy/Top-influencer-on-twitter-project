@@ -19,7 +19,7 @@ The attached dataset contains `2,420,766` different following states (edges) and
 
 ### Pseudocode 
 |--| ---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|1.| Loading the excel file into python|
+|1.| Loading the excel file into python                                                                                                                             |
 |2.| Reading a CSV file into a Python Dictionary|
 |3.| The dictionary key is the person ID and its value is a list of his followers |
 |4.| Creating a new dictionary; its key is the person’s ID and his value is the length of the list that contains his followers|
