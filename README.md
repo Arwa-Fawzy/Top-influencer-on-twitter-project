@@ -18,7 +18,7 @@ The attached dataset contains `2,420,766` different following states (edges) and
 `81,000` different Twitter accounts.
 
 ### Pseudocode 
-
+|--| ---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |1.| Loading the excel file into python|
 |2.| Reading a CSV file into a Python Dictionary|
 |3.| The dictionary key is the person ID and its value is a list of his followers |
