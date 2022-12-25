@@ -18,15 +18,14 @@ The attached dataset contains `2,420,766` different following states (edges) and
 `81,000` different Twitter accounts.
 
 ### Pseudocode 
-|--| ---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|1.| Loading the excel file into python                                                                                                                             |
-|2.| Reading a CSV file into a Python Dictionary|
-|3.| The dictionary key is the person ID and its value is a list of his followers |
-|4.| Creating a new dictionary; its key is the person’s ID and his value is the length of the list that contains his followers|
-|5.| Initializing a list that includes the lengths of lists only |
-|6.| Applying radix sort that is based on count sort on the list|
-|7.| Accessing each person’s ID (the key) from the original dictionary (by its value which is the length of the list) in order from least influencer to the top one |
-|8.| Finally, there was a function that recommend a person for another if both of them have at least 1000 common followers |
+* Loading the excel file into python                                                                                                                             
+* Reading a CSV file into a Python Dictionary
+* The dictionary key is the person ID and its value is a list of his followers 
+* Creating a new dictionary; its key is the person’s ID and his value is the length of the list that contains his followers
+* Initializing a list that includes the lengths of lists only 
+* Applying radix sort that is based on count sort on the list
+* Accessing each person’s ID (the key) from the original dictionary (by its value which is the length of the list) in order from least influencer to the top one 
+* Finally, there was a function that recommend a person for another if both of them have at least 1000 common followers 
 
 # Time complexity analysis
 
