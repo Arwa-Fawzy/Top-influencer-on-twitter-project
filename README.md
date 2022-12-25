@@ -32,7 +32,7 @@ The attached dataset contains `2,420,766` different following states (edges) and
 The time complexity of loading the CSV file into the dictionary, copying it to the new dictionary, and copying the lengths to the new list is O(N) times. Then, the time complexity of radix sort is known as O(nd), where n is the size of the list and d is the number of digits in the largest number which is a constant. Therefore, the total time complexity is O(2N) which is finally O(N) times. The time complexity of followers’ suggestions is O(n^2). 
 
 ## Credits
-This project was created by Ahmed Baioumy, assistant professor, on 6 Decemeber 2022.
+This project was created by Ahmed Baioumy, assistant professor at E-JUST University, on 6 Decemeber 2022.
 
 This code was written by Arwa Fawzy, 20 December 2022.
 
